@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'em-rubyserial/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "em-rubyserial"
+  spec.name          = "wj-em-rubyserial"
   spec.version       = Em::Rubyserial::VERSION
   spec.authors       = ["Bhargav Raut"]
   spec.email         = ["bhargav.r.raut@gmail.com"]

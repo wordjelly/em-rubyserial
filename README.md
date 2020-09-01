@@ -8,7 +8,7 @@ The original gem fails on virtually all versions of EventMachine, due to a weird
 
 Add this line to your application's Gemfile:
 
-    gem 'em-rubyserial'
+    gem 'wj-em-rubyserial'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install em-rubyserial
+    $ gem install wj-em-rubyserial
 
 ## Usage
 
