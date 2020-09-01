@@ -6,11 +6,11 @@ require 'em-rubyserial/version'
 Gem::Specification.new do |spec|
   spec.name          = "em-rubyserial"
   spec.version       = Em::Rubyserial::VERSION
-  spec.authors       = ["Jesse Cantara"]
-  spec.email         = ["jcantara@gmail.com"]
+  spec.authors       = ["Bhargav Raut"]
+  spec.email         = ["bhargav.r.raut@gmail.com"]
   spec.summary       = %q{EventMachine serial port}
-  spec.description   = %q{EventMachine functionality for rubyserial gem that functions under a wide assortment of rubies}
-  spec.homepage      = "https://github.com/jcantara/em-rubyserial"
+  spec.description   = %q{Refactored to play nice with eventmachine}
+  spec.homepage      = "https://github.com/wordjelly/em-rubyserial"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
