@@ -1,5 +1,5 @@
 require "em-rubyserial/version"
-require 'eventmachine'
+require 'em/pure_ruby'
 require 'rubyserial'
 
 module EventMachine
