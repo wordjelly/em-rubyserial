@@ -4,6 +4,8 @@ EventMachine serial port functionality that should work on all* ruby flavors (in
 
 The original gem fails on virtually all versions of EventMachine, due to a weird rbtree errors. I fixed this, by fixing what looks like an erroneous require statement.
 
+Locked em version
+
 ## Installation
 
 Add this line to your application's Gemfile:
